@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#ffffff"/>
+  
+  <!-- Decorative border -->
+  <rect x="20" y="20" width="360" height="160" fill="none" stroke="#2c5f4f" stroke-width="2"/>
+  <rect x="25" y="25" width="350" height="150" fill="none" stroke="#2c5f4f" stroke-width="1"/>
+  
+  <!-- Decorative corner elements -->
+  <path d="M 30 30 L 50 30 M 30 30 L 30 50" stroke="#8b6f47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 370 30 L 350 30 M 370 30 L 370 50" stroke="#8b6f47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 30 170 L 50 170 M 30 170 L 30 150" stroke="#8b6f47" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 370 170 L 350 170 M 370 170 L 370 150" stroke="#8b6f47" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Central architectural element - classical column/pillar -->
+  <g transform="translate(200, 70)">
+    <!-- Column capital -->
+    <rect x="-20" y="-15" width="40" height="8" fill="#2c5f4f"/>
+    <rect x="-22" y="-20" width="44" height="5" fill="#2c5f4f"/>
+    
+    <!-- Column shaft -->
+    <rect x="-15" y="-7" width="30" height="45" fill="#2c5f4f"/>
+
+    
+    <!-- Column base -->
+    <rect x="-20" y="38" width="40" height="6" fill="#2c5f4f"/>
+    <rect x="-22" y="44" width="44" height="4" fill="#2c5f4f"/>
+  </g>
+  
+  <!-- Decorative laurel leaves -->
+  <path d="M 100 100 Q 90 95 85 100 Q 90 105 100 100" fill="#8b6f47"/>
+  <path d="M 95 105 Q 85 100 80 105 Q 85 110 95 105" fill="#8b6f47"/>
+  <path d="M 300 100 Q 310 95 315 100 Q 310 105 300 100" fill="#8b6f47"/>
+  <path d="M 305 105 Q 315 100 320 105 Q 315 110 305 105" fill="#8b6f47"/>
+  
+  <!-- Text: HERITAGE -->
+  <text x="200" y="145" font-family="serif" font-size="32" font-weight="bold" fill="#2c5f4f" text-anchor="middle" letter-spacing="4">HERITAGE</text>
+  
+  <!-- Decorative line -->
+  <line x1="120" y1="155" x2="280" y2="155" stroke="#8b6f47" stroke-width="1"/>
+  
+  <!-- Text: RESORT -->
+  <text x="200" y="170" font-family="serif" font-size="14" fill="#8b6f47" text-anchor="middle" letter-spacing="6">RESORT</text>
+  
+</svg>
